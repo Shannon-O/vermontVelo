@@ -36,9 +36,11 @@ a:hover {
   color: darkgreen;
   /*background-color: lightblue;*/
   font-family: sans-serif;
-  width: 300px;
+  /*width: 300px;*/
   padding: 10px 20px 10px;
   font-size: 12;
+  /*justify-content: right;, first baseline;*/
+  /*align-items: baseline;*/
 }
 /*.navbar-collapse {
   color: darkgreen;
@@ -53,6 +55,7 @@ a:hover {
   background: lightyellow;
   width: 135px;
   padding: 10px 10px 10px;
+  align-items: baseline;
 }
 .dropdown-item  {
   font-family: Geneva;
