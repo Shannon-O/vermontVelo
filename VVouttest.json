@@ -1,0 +1,22 @@
+{
+    "route": {
+        "bike_shops": [], 
+        "closure": [], 
+        "county": [], 
+        "elevation": [], 
+        "elevation_change": [], 
+        "food": [], 
+        "hazards": [], 
+        "length": [], 
+        "lodging": [], 
+        "parking": [], 
+        "path": [
+            "(1,2)", 
+            "(2,2)", 
+            "(2,3)"
+        ], 
+        "route_end": [], 
+        "route_start": [], 
+        "scenic": []
+    }
+}
