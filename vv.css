@@ -1,6 +1,6 @@
 
 body {
-  padding-top: 5rem;
+  /*padding-top: 5rem;*/
 }
 a {
   /*outline-style: groove;
@@ -12,10 +12,10 @@ a:active  {
   color: teal;
 }
 a:visited {
-  color: purple;
+  color: darkgreen;
 }
 a:hover {
-  background: plum;
+  background: lightgreen;
 }
 .searchbar {
   padding: 5px 5px 15px;
@@ -25,13 +25,17 @@ a:hover {
   /*background-color: pink;*/
   font-size: 20;
   font-family: futura;
-  padding: 5px 5px 5px;
+  padding: 13px 10px 5px;
 }
 .nav-link {
   color: orange;
   font-family: futura;
   /*padding: 5px 5px 2px;*/
 }
+/*.container-fluid {
+  background: white;
+}*/
+
 .collapse {
   color: green;
   /*background-color: lightblue;*/
@@ -42,11 +46,20 @@ a:hover {
   /*justify-content: right;, first baseline;*/
   /*align-items: baseline;*/
 }
+.bg {
+  background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;
+  position: fixed;
+  width: 100%;
+  height: 350px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
 .jumbotron-text-center {
-  background: lightgreen;
-  color: green;
-  font-family: serif;
-  padding: 0px 100px 0px;
+  background: white;
+  color: white;
+  font-family: futura;
+  padding: 1px 0px 10px;
   text-align: center;
 }
 /*.navbar-collapse {
@@ -59,11 +72,12 @@ a:hover {
 }*/
 .dropdown-menu  {
   /*font-size: 12;*/
-  background: lightyellow;
+  background: white;
   width: 135px;
   padding: 10px 10px 10px;
   align-items: baseline;
 }
+
 .dropdown-item  {
   font-family: Geneva;
   /*font-size: 12;*/
@@ -71,11 +85,16 @@ a:hover {
 }
 .starter-template {
   /*padding: 3rem 1.5rem;*/
-  padding: 100px 100px 100px;
+  padding: 0px 0px 0px;
   text-align: center;
 }
+.align-left-resources{
+  /*padding: 3rem 1.5rem;*/
+  padding: 0px 0px 0px;
+  text-align: left;
+}
 .container {
-  color: olive;
+  color: darkgreen;
   /*background-color: lightgreen;*/
   font-family: sans-serif;
 }
